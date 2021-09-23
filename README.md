@@ -23,6 +23,10 @@ server side are created.
 
 #### User Story: 
 - As a passenger user, I want to be able to book a taxi in Auckland and surrounding areas.
+<img align="left" src="https://github.com/lauraluuu/CabsOnline-Booking-System/blob/main/page_images/booking_page.PNG?raw=true">
+
+
+
 
 ## **Admin:** 
 This component allows administrative people of CabsOnline to view those taxi booking requests
@@ -31,3 +35,8 @@ that need to be assigned as soon as possible and to assign taxi for a particular
 #### User Story: 
 - As an admin user, I want to be able to view taxi bookings within 2 hours so that I can manage the booking requests.
 - As an admin user, I want to be able to assign a taxi to a particular booking request.
+<img align="left" src="https://github.com/lauraluuu/CabsOnline-Booking-System/blob/main/page_images/admin_page.PNG?raw=true">
+
+
+
+
