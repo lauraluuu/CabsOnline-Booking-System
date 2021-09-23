@@ -1,0 +1,107 @@
+h1 {
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+	font-family: Arial;
+}
+
+h2, h3 {
+	text-align: center;
+	font-weight: bold;
+	color: blue;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+body {
+	color: black;
+	font-family: Verdana;
+	font-size:15px;
+	text-align:left;
+}
+
+html {
+    background-image: url("yellowtaxi.jpg"); 
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+}
+
+div.bookingInfo {
+	border: 2px solid black;
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 10px;
+}
+
+div.returnInfo {
+    width: 70%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: yellow;
+}
+
+input.customerInput {
+	width: 95%;
+	text-align: left;
+	padding: 10px 12px;
+}
+
+input.fieldInput1 {
+	width: 20%;
+	text-align: left;
+	padding: 10px 12px;
+}
+
+fieldset.fieldlocation{
+	border: 1px solid black;
+}
+
+fieldset.fieldtime{
+	border: 1px solid black;
+}
+
+input.fieldInput2 {
+	width: 70%;
+	text-align: left;
+	padding: 10px 12px;
+}
+
+input.fieldInput3 {
+	width: 45%;
+	text-align: left;
+	padding: 10px 12px;
+}
+
+input.adminInput {
+	width: 87%;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 10px 50px;
+	text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+input.adminButton {
+	width: 32%;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 10px 50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+input.submitButton {
+	width: 49%;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 10px 50px;
+	border-radius: 6px;
+}
+
+

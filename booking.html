@@ -1,0 +1,50 @@
+<!--Student Name: Peifen Lu
+----Student ID: 18008550
+booking.html is the booking page for the customer to provide booking information to submit a booking request-->
+
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Cab Booking Page</title> 
+<script type="text/javascript" src="booking.js"> </script>
+<link href="style.css" rel="stylesheet">
+</head> 
+<body>
+  	<h1>CabsOnline Booking System</h1>
+	<div id="bookingInfo" class = "bookingInfo">
+	<form>
+		<input type="text" name="customerName" id="customerName" placeholder="Customer name (Required)" class = "customerInput"><br />
+		<input type="text" name="phone" id="phone" placeholder="Contact phone number (Required)" class = "customerInput" ><br /><br />
+
+		<fieldset class="fieldlocation">
+		<legend>Pick-up Location</legend>
+		<input type="text" id="unitNO" name="unitNO" placeholder="Unit Number (Optional)" class = "fieldInput1"> 
+		<input type="text"  id="streetName" name="streetName" placeholder="Street Name (Required)" class = "fieldInput2"><br />
+		<input type="text" id="streetNO" name="streetNO" placeholder="Street Number (Required)" class = "fieldInput1">
+		<input type="text" id="suburb"  name="suburb" placeholder="Suburb Name (Required)" class = "fieldInput2"><br />
+		</fieldset>
+
+		<br />
+		<fieldset class="fieldtime">
+		<legend>Pick-up Time (Required)</legend>
+		<input type="date" id="pickupDate" name="pickupDate" class = "fieldInput3" >
+		<input type="time" id="pickupTime" name="pickupTime" class = "fieldInput3" >
+		</fieldset>
+		<br />
+
+		<input type="text" id="destination" name="destination" placeholder="Destination Suburb (Required)" class = "customerInput"><br />
+		<br />
+		<div>
+			<input name="submit" type = "button" class = "submitButton" onClick = "booking('booking.php','return', 
+			customerName.value, phone.value, unitNO.value, streetNO.value, streetName.value, suburb.value, 
+			pickupDate.value, pickupTime.value, destination.value) " value = "Send a booking">
+			<input type="reset" value="Reset" class="submitButton"/>
+		</div>
+	</form>
+	</div>
+	<br />
+	
+	<div id="return" class = "returnInfo"> 
+	</div> 
+</body> 
+</html>

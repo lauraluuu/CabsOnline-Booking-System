@@ -1,0 +1,30 @@
+<!--Student Name: Peifen Lu
+----Student ID: 18008550
+admin.html is the administration page that allows administrative people of CabsOnline to search booking requests
+and assign taxi for a specific booking requests with booking number as input-->
+
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Cab Booking Admin Page</title> 
+<script type="text/javascript" src="admin.js"></script>
+<link href="style.css" rel="stylesheet">
+</head> 
+<body>
+  	<h1>Taxi Admin System</h1>
+	<div class = "bookingInfo">
+	<form>
+		<br /><br />
+		<input type="text" class = "adminInput" name="bookingNumber" placeholder="Enter booking number for assigning request"><br /><br />
+		<input name="assignTaxi" type ="button" class = "adminButton" value = "Assign Taxi" onclick ="assigning('assign.php','return', bookingNumber.value) " >
+		<input name="bookingRequest" type="button" class = "adminButton" value="Show Booking Requests" onclick="requesting('requesting.php', 'return', 'date')" >
+		<input type="reset" value="Reset" class="adminButton"/>
+		<br /><br />
+	</form>
+	</div>
+
+	<div id="return" class = "returnInfo"> 
+	</div> 
+
+</body> 
+</html>
